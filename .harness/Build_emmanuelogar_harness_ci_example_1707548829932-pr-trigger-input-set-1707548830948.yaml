@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_emmanuelogar_harness_ci_example_1707548829932-pr-trigger-input-set
+  identifier: Build_emmanuelogar_harness_ci_example_1707548829932prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: deploy_terraform
+  pipeline:
+    identifier: Build_emmanuelogar_harness_ci_example_1707548829932
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
