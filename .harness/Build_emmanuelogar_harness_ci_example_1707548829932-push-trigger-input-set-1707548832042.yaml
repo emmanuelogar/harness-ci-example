@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_emmanuelogar_harness_ci_example_1707548829932-push-trigger-input-set
+  identifier: Build_emmanuelogar_harness_ci_example_1707548829932pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: deploy_terraform
+  pipeline:
+    identifier: Build_emmanuelogar_harness_ci_example_1707548829932
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
